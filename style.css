@@ -1,0 +1,564 @@
+body{
+    background-color: rgb(49, 49, 49);
+}
+.left{
+    padding-top: 70px;
+    padding-left: 50px;
+   margin-bottom: 8px;
+}
+h1{
+    font-size: 80px;
+    color: beige;
+    z-index: 1;
+}
+
+
+
+.border {
+
+width: 50px;
+height:  50px;
+border-radius: 20px;
+}
+
+.border::before {
+
+content: "";
+position: absolute;
+z-index: -1;
+height: 100px;
+width: 100px;
+scale: 1.1;
+filter: blur(25px);
+animation: rotate 4s linear infinite;
+border-radius: 100px; 
+}
+
+.content {
+background-color: #fbfbfb;
+width:  50px;
+height:  50px;
+border-radius: 19px;
+scale: 0.9;
+}
+
+.social{
+display: flex;
+justify-content: space-between;
+padding-right: 400px;
+padding-top: 60px;
+}
+
+.socials{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  transform: translate(-50%,-50%);left: 50%;top: 50%;
+  width: 50%;
+
+  }
+.icons{
+position: absolute;
+top: 5px;
+left: 5px;
+}
+.marlon{
+position: absolute;
+top: 30px;
+left: 400px;
+z-index: -1;
+}
+.butts{
+margin-top: 50px;
+height: 50px;
+background-color:transparent;
+text-align: center;
+font-size: 20px;
+color: aliceblue;
+}
+
+
+li{
+display: inline;
+
+padding-right: 10px;
+}
+button{
+text-decoration: none;
+cursor: pointer;
+outline: none;
+border: none;
+background: transparent;
+color: aliceblue;
+}
+.box {
+width: auto;
+height: auto;
+float: left;
+transition: .5s linear;
+position: relative;
+display: block;
+overflow: hidden;
+padding: 15px;
+text-align: center;
+margin: 0 5px;
+background: transparent;
+text-transform: uppercase;
+font-weight: 500;
+}
+
+.box:before {
+position: absolute;
+content: '';
+left: 0;
+bottom: 0;
+height: 4px;
+width: 100%;
+border-bottom: 4px solid transparent;
+border-left: 4px solid transparent;
+box-sizing: border-box;
+transform: translateX(100%);
+}
+
+.box:after {
+position: absolute;
+content: '';
+top: 0;
+left: 0;
+width: 100%;
+height: 4px;
+border-top: 4px solid transparent;
+border-right: 4px solid transparent;
+box-sizing: border-box;
+transform: translateX(-100%);
+}
+
+.box:hover {
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.box:hover:before {
+border-color: #262626;
+height: 100%;
+transform: translateX(0);
+transition: .3s transform linear, .3s height linear .3s;
+}
+
+.box:hover:after {
+border-color: #262626;
+height: 100%;
+transform: translateX(0);
+transition: .3s transform linear, .3s height linear .5s;
+}
+.con1{
+position: absolute;
+width: 40%;
+z-index: 1;
+height: 380px;
+
+}
+.con2{
+position: absolute;
+width: 40%;
+
+height: 380px;
+}
+.con3{
+position: absolute;
+width: 40%;
+
+height: 380px;
+}
+.con0{
+  position: absolute;
+  width: 40%;
+  
+  height: 380px;
+  }
+.webdev{
+  color: white;
+position: absolute;
+width: 100%;
+height: auto;
+display: inline;
+z-index: 2;
+padding-left: 30px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.aboutme{
+color: white;
+position: absolute;
+width: 100%;
+height: auto;
+display: none;
+z-index: 2;
+padding-left: 30px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.contact{
+position: absolute;
+width: 100%;
+height: auto;
+display: none;
+color: white;
+}
+.hobbies{
+position: absolute;
+width: 100%;
+height: auto;
+display: none;
+color: white;
+}
+footer{
+position: relative;
+width: 100%;
+background-color: rgb(17, 17, 17);
+height: auto;
+padding-bottom:35px;
+margin-top: 30px;
+z-index: 1;
+}
+.hpic{
+  position: relative;
+  left: -60px;
+}
+.more{
+    position: absolute;
+    color: bisque;
+    cursor: pointer;
+    bottom: 1px;
+    left: 70px;
+    z-index: 3;
+}
+
+
+  .first{
+    position: relative;
+    background-color: transparent;
+    padding-bottom: 30px;
+
+  }
+  .second{
+    position: relative;
+    background-color: transparent;
+    height: auto;
+    margin-top: 30px; 
+    padding-bottom: 30px;
+  }
+  .ab{
+    text-align: center;
+  }
+  .ab h2{
+    font-weight: 900;
+    color: #fff;
+  }
+
+  .logs{
+    position: relative;
+    width: 100%;
+    height: auto;
+    Padding-bottom:10px;
+    padding-top: 30px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .card1 {
+    
+    position: relative;
+    width: 800px;
+    height: 550px;
+    font-size: 26px;
+    top: 60px;
+    left: 40px;
+    border-radius: 30px;
+    background: #212121;
+    box-shadow: 15px 15px 30px rgb(30, 10, 10),
+                -15px -15px 30px rgba(215, 54, 54, 0.564);
+   }
+   
+   .foot{
+    position: relative;
+    width: 100%;
+background-color: rgb(17, 17, 17);
+justify-content: space-around;
+display: flex;
+flex-wrap: wrap;
+height: auto;
+padding-bottom: 20px;
+margin-top: 30px;
+top: -30px;
+z-index: 1;
+   }
+   .moreabout{
+    margin-top: 20px;
+    position: relative;
+ 
+    width: 80%;
+    justify-content: space-around;
+display: flex;
+flex-wrap: wrap;
+height: auto;
+padding-bottom: 20px;
+   }
+   .card {
+    width: 220px;
+    height: 254px;
+    border-radius: 30px;
+    color: black;
+    margin: 30px;
+    background: lightgrey;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
+  }
+  .card2 {
+    width: 620px;
+    height: 214px;
+    border-radius: 30px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    margin: 30px;
+    background: lightgrey;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
+  }
+.mainlagayan{
+  justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+  width: 40%;
+  height: auto;
+ 
+}
+  ul{
+    display: inline;
+  }
+  .tits{
+    font-size: 20px;
+    font-weight: 999;
+  }
+  .card p {
+    font-size: 18px;
+  }
+   .mark1{
+    width: 500px; height: 500px;
+   }
+
+
+.dev{
+  font-size: 100px;left: 40px; position: relative;top: -20px; color: rgb(0, 153, 255);
+}
+
+.lpic{
+  display: none;
+}
+   @media screen and (max-width: 500px) {
+   
+    .container{
+      
+      position: relative;
+      width: 100%;
+      height: 1100px;
+
+    }
+.left{
+  position: relative;
+  left:-30px;
+}
+    .mark1{
+      border-radius: 200px;
+      
+      position: absolute;
+      width: 300px;
+      height: 300px;
+      top: -80px;
+     left: -260px;
+
+    }
+    .fourth{
+      position: relative;
+      top: -750px;
+      
+      height: 400px;
+    }
+    .fourths{
+      position: relative;
+      top: -750px;
+   
+    }
+    .butts{
+      position: relative;
+      left: -25px;
+      top: -50px;
+      width: 200px;
+      z-index: 1;
+      
+   
+    }
+    
+    .con0{
+      position: relative;
+     
+      top: 20px;
+      
+      
+ 
+     }
+    .webdev{
+     position: relative;
+     left: -10px;
+     
+
+    }
+    footer{
+      position: relative;
+      width:100%;
+      height: auto;
+  
+    }
+    .dev{
+      font-size: 80px;
+    }
+    .con1{
+      position: relative;
+      
+      top: -200px;
+      
+      width: 100%;
+    }
+    .aboutme{
+      position: absolute;
+     left: -10px;
+    top: -30px;
+     z-index: -1;
+     width: 100%;
+    }
+    .con2{
+      position: relative;
+      
+      top: -580px;
+    
+      width: 100%;
+    }
+    .hobbies{
+      position: absolute;
+      
+     z-index: -1;
+     width: 100%;
+    }
+    .con3{
+      position: relative;
+     
+      top: -960px;
+      
+      width: 100%;
+    }
+    .contact{
+      position: absolute;
+
+     z-index: -1;
+     width: 100%;
+    }
+    .logs{
+     position: relative;
+    }
+    .card1{
+      position: absolute;
+      top: 100px;
+      left: 160px;
+      height: 570px;
+      width: 250px;
+      z-index: -1;
+      font-size: 14.5px;
+    }
+    .foot{
+      position: relative;
+      top: -440px;
+    }
+    
+    .card{
+      width: 130px;
+    height: 354px;
+    padding-top: 30px;
+    }
+    .third{
+      position: relative;
+      top: -400px;
+     
+    }
+    .hpic{
+      left: 5px;
+    }
+    .lpic{
+      display: flex;
+      position: relative;
+      top: -780px;
+      height: 500px;
+      width: 100%;
+      border-radius: 500px;
+      box-shadow: 20px 20px 20px;
+    }
+  }
+
+
+  .spinner {
+    width: 70.4px;
+    height: 70.4px;
+    --clr: rgb(0, 174, 255);
+    --clr-alpha: rgb(247, 197, 159,.1);
+    animation: spinner 1.6s infinite ease;
+    transform-style: preserve-3d;
+  }
+  
+  .spinner > div {
+    background-color: var(--clr-alpha);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    border: 3.5px solid var(--clr);
+  }
+  
+  .spinner div:nth-of-type(1) {
+    transform: translateZ(-35.2px) rotateY(180deg);
+  }
+  
+  .spinner div:nth-of-type(2) {
+    transform: rotateY(-270deg) translateX(50%);
+    transform-origin: top right;
+  }
+  
+  .spinner div:nth-of-type(3) {
+    transform: rotateY(270deg) translateX(-50%);
+    transform-origin: center left;
+  }
+  
+  .spinner div:nth-of-type(4) {
+    transform: rotateX(90deg) translateY(-50%);
+    transform-origin: top center;
+  }
+  
+  .spinner div:nth-of-type(5) {
+    transform: rotateX(-90deg) translateY(50%);
+    transform-origin: bottom center;
+  }
+  
+  .spinner div:nth-of-type(6) {
+    transform: translateZ(35.2px);
+  }
+  
+  @keyframes spinner {
+    0% {
+      transform: rotate(45deg) rotateX(-25deg) rotateY(25deg);
+    }
+  
+    50% {
+      transform: rotate(45deg) rotateX(-385deg) rotateY(25deg);
+    }
+  
+    100% {
+      transform: rotate(45deg) rotateX(-385deg) rotateY(385deg);
+    }
+  }
