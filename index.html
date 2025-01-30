@@ -1,524 +1,462 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Portfolio</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="icon" type="images/png" href="photo/mb.png" sizes="100x100" />
-</head>
-
-<body> 
-
-<div class="first">
-    <div class="marlon" data-aos="zoom-in">
-        <img  src="photo/marlon.png" class="mark1" alt="marlon" >
-    </div> 
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col left " data-aos="zoom-out-right">
-                <!-- <img src="photo/happy-face.png" alt="smiley" style="width: 100px; height: 100px;"> -->
-                <div class="spinner">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                  </div><br>
-       
-                <h1>
-                    Baro,<br>
-                    Marlon M.
-                </h1>
-                <div class="social">
-                    <a href="https://www.facebook.com/marlon.jester.11">
-                        <div class="border">
-                            <div class="content">
-                            <img class="icons" src="photo/facebook.png" alt="fb" style="width: 80%; height: 80%;">
-                            </div>
-                        </div>
-                    </a>
-                     <a href="https://instagram.com/itslonmartime?igshid=MzMyNGUyNmU2YQ==">
-                        <div class="border">
-                            <div class="content">
-                            <img class="icons" src="photo/instagram.png" alt="ig" style="width: 80%; height: 80%;">
-                            </div>
-                        </div>
-                    </a>
-                    <a href="https://www.tiktok.com/@.lowkey01?_t=8gt68tw4iJN&_r=1">
-                        <div class="border">
-                            <div class="content">
-                                <img class="icons" src="photo/tik-tok.png" alt="tiktok" style="width: 80%; height: 80%;">
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-            </div>
-            <div class="col " > 
-                <div class="butts" data-aos="zoom-in-left"> 
-                    <ul>
-                        <li><button id="but1" class="box">About Me</button></li>
-                        <li><button id="but2" class="box">Hobbies</button></li>
-                        <li><button id="but3" class="box">Contact</button></li>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Marlon Baro | Portfolio</title>
+  </head>
+  <body>
+    <div class="container-fluid head ">
+      <div class="row">
+        <div class="col-1"></div>
+        <div class="col-11">
+            <nav class="navbar navbar-expand-lg" >
+                <a class="navbar-brand text-light" href="#"><img src="photo/mb.png" class="mblogs" alt="" height="50" width="50" /> - Portfolio</a>
+                <button class="navbar-toggler border" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon text-light pt-1"><i class="fas fa-bars"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav"> 
+                        <li class="nav-item active">
+                            <a class="nav-link text-light" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#aboutme">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#skill">Skill</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#proj">Project</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#cont">Contact</a>
+                        </li>
                     </ul>
                 </div>
-        
-                <div class="con0" >
-                    <div class="webdev" id="webdev" >
-                       <br>
-                       <hr>
-                       <br>
-                       <h2 style="font-size: 70px; font-weight: 999;left: 40px; position: relative;">Information</h2>
-                       <h2 class="dev" > Technology</h2>
-                       <hr>
-                       <h6 style="left: 40px; position: relative;">In Bulacan State Agricultural University</h6>
-                      
-                    
-                    </div>
-                </div>
-
-
-
-                <div class="con1" data-aos="zoom-in-left">
-                    <div id="aboutme" class="aboutme" >
-                        <pre>
-                            <h4 style="border-bottom:3px white solid ;">About Me</h4>
-
-                        <h6>-Introduction</h6>
-         Hello! This is Marlon M. Baro
-      lives in Pinambaran, San Miguel, Bulacan
-      and I now study at Bulacan Agriculture State College
-      And my course is Bachelor of Science Information
-      Technology, I am 22 years old and now in my third year of College.
-                   
-                        </pre>
-                        <a class="more" href="#about">
-                        More Info:
-                        </a>
-                    </div>
-                </div>
-
-                <div class="con2">
-                    <div id="hobbies" class="hobbies">
-<pre>
-
-        <b>My Hobbies:</b>
-<hr style="border-bottom:3px white solid ;">
-            * Playing Guitar
-            * Drawing
-            * Travel
-            * Playing Online Games
-            * Listening Music
-            * Watching Anime/Movies
-
-</pre>
-<a class="more" href="#hobby">
-    More Info:
-    </a>
-
-                    </div>
-                </div>
-
-                <div class="con3">
-                    <div id="contact" class="contact">
-
-<pre>
-    
-        <b>Contact me!</b>
-        <hr>
-            <b>Email:</b>KRAMLEUNAM467@GMAIL.com
-            <b>Number:</b>09760309602
-
-
-</pre>
-<a class="more" href="#contacts">
-    More contact :
-    </a>
-                    </div>
-                </div>
-
-
-
+            
         </div>
-        </div>
+      </div>
     </div>
-
-    <footer>
+    <div class="container phone my-5">&nbsp;
+        <div class="row mt-3">&nbsp;</div>
+    </div>
+    <div class="container lap" data-aos="zoom-in"> 
+      <div class="row mt-1">
+        <div class="col-md-5 pt-5" style="color: var(--white0);">
+          <h1 style="font-size: 20px;">Hello, It's Me</h1>
+          <h1 style="font-size: 60px; font-family: fantasy;">Marlon M. Baro</h1>
+          <h1 style="font-size: 20px;">And I am a <b id="typing" class="typing-effect"></b></h1><br><br>
+          <div class="line"></div>
+          <!-- From Uiverse.io by david-mohseni --> 
+<ul class="wrapper">
+   <a href="https://www.facebook.com/marlon.jester.11" class="text-dark">
+    <li class="icon facebook">
+        <span class="tooltip">Facebook</span>
+        <svg
+          viewBox="0 0 320 512"
+          height="1.2em"
+          fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+          ></path>
+        </svg>
+      </li>
+   </a>
+   <a href="https://www.tiktok.com/@.lowkey01?is_from_webapp=1&sender_device=pc" class="text-dark">
+    <li class="icon twitter">
+      <span class="tooltip">Tiktok</span>
+      <img class="icons" src="photo/tik-tok.png" alt="ig" style="width: 50%; height: 50%;">
+    </li>
+</a>
+<a href="https://www.instagram.com/itsmelonmar?igsh=YmRiaDdyZ3Bpa28y" class="text-dark">
+    <li class="icon instagram">
+      <span class="tooltip">Instagram</span>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        height="1.2em"
+        fill="currentColor"
+        class="bi bi-instagram"
+        viewBox="0 0 16 16"
+      >
+        <path
+          d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+        ></path>
+      </svg>
+    </li>
+</a>
+<a href="mailto:marlonbaro.basc@gmail.com" class="text-dark">
+    <li class="icon email">
+        <span class="tooltip">Email</span>
+        <svg
+        viewBox="0 0 488 512"
+        height="1.2em"
+        fill="currentColor"
+        xmlns="http://www.w3.org/2000/svg"
+    >
+        <path
+            d="M488 261.8C488 403.3 389.3 512 256 512 114.6 512 0 397.4 0 256S114.6 0 256 0c69.3 0 128.9 26.8 175.5 70.2L344 157.5c-26.3-25-60.4-39.9-96.7-39.9-83 0-150.3 69.6-150.3 157.1S164.2 432 247.3 432c72.9 0 122.7-41.4 131-99.1H248v-79.1h240z"
+        ></path>
+    </svg>
+    
+    
+      </li>
+    </a>
+  </ul>
+  <br>
+  
+<div class="row">
+  <div class="col-12">
+    <center>  <h1 style="font-size: 20px;"><a href="#aboutme" class="more">More About Me</a></h1></center>
+  </div>
+</div>
+  
+        </div>
+        <div class="col-md-7 phone">
+          <img
+            src="photo/lonmar.png"
+            alt=""
+            class="lonmar"
+            height="450"
+            width="100%"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="container phone my-5">&nbsp;
+      <div class="row mt-3">&nbsp;</div>
+  </div>
+<div id="aboutme" class="container mt-5" data-aos="zoom-in">
+  <div class="row">
+    <div class="col-md-5">
+      <img src="photo/lonmar2.png" class="lonmar" alt="" height="450" width="100%">
+    </div>
+    <div class="col-md-7">
+<div class="card p-2 text-light" style="background-color:transparent;">
+  <div class="row">
+    <div class="col-12"  style="font-size: 50px; font-weight: 500;">
+      <center>
+        AboutMe
+      </center>
+    </div>
+  </div>
+  <div  class="row px-3 justify-text" style="font-size: 19px; font-weight: 500;">
+    Hello, Im Marlon Baro I am just a simple person who lives in Pinambaran, San Miguel Bulacan and I am the youngest of my siblings, and I am currently studying at BASC in the Bachelor of Science Information Technology course. I already know how to develop a website and any basic skill because of the great instructors who taught us and because of this I was able to make a simple website for myself, what I want to achieve? It is a to become a senior full-stack web developer, and I will do my best to make it dream come true, so this is what I want, and now I starting to create a simple website to make any people will be proud of me and to believing me so as a web developer I will show here that I can also become a senior full-stack web developer once I achieve this most people will looking at me. for now I will do everything I can to achieve everything I want to achieve.</div>
+</div>
       
-    
-<div class="logs">
-    
-        
-        <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#html">
-            <img src="photo/html.png" alt="html" style="height: 90px; width: 90px;">
-        </button>
-        <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#css">
-            <img src="photo/css.png" alt="html" style="height: 90px; width: 90px;">
-        </button>
-        <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#js">
-            <img src="photo/js.png" alt="html" style="height: 90px; width: 90px;">
-        </button>
-        <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#bootstrap">
-            <img src="photo/bootstrap.png" alt="html" style="height: 90px; width: 90px;">
-        </button>
-
-</div>
-    </footer>
-</div>
-
-<hr style="border-bottom: 3px white solid;">
-
-<div class="second" id="about" data-aos="fade-up">
-    <div class="container">
-        <div class="ab ">
-            <h2>About Me</h2>
-        </div>
-        <div class="row">
-            <div class="col-4" data-aos="fade-right">
-                <img src="photo/lon.png" alt="marlon" style="height: 650px; width: 100%;">
-            
-            </div>
-            <div class="col-8" data-aos="fade-left">
-                <div class="card1 text-center
-               text-light text-break pt-2 px-2">
-             Hello, Im Marlon Baro I am just a simple person who lives in Pinambaran, San Miguel Bulacan and I am the youngest of my siblings, and I am currently studying at BASC in the Bachelor of Science Information Technology course. I already know how to develop a website because of the great instructors who taught us and because of this I was able to make a simple website myself, what I want to achieve is to become a web developer I will do my best for me to take it, so this is what I want is that I want to create a website that I can really be proud of and that many people can benefit from, and as a web developer I will show here that I can also become a web developer once I have created website that most people will look up to and for now I will do everything I can to achieve everything I want to achieve.
-                
-                </div>
-                
-            </div>
-        </div>
     </div>
-    <div class="foot" data-aos="zoom-in">
-        <h1>Educational Background</h1>
-      <div class="moreabout">
-        
-        <div class="card text-center text-break">
-            <span class="tits">EDUCATION ELEMENTARY</span>
-            <hr style="border-bottom: 2px solid black;">
-            <p>
-                Elementary School:
-                Pinambaran,San Miguel,Bulacan
-                (2008-2014)
-            </p>
-        </div>
-        <div class="card text-center text-break">
-            <span class="tits">EDUCATION JUNIOR HIGH</span>
-            <hr style="border-bottom: 2px solid black;">
-            <p>
-                Junior High School:
-                Vedasto R. Santiago
-                Salacot,San Miguel,Bulacan
-                (2014-2018)
-            </p>
-        </div>
-        <div class="card text-center text-break">
-            <span class="tits">EDUCATION SENIOR HIGH</span>
-            <hr style="border-bottom: 2px solid black;">
-            <p>
-                Senior High School:
-                Vedasto R. Santiago
-                Salacot,San Miguel,Bulacan
-                (2019-2021)
-            </p>
-        </div>
-        <div class="card text-center text-break">
-            <span class="tits">EDUCATION COLLEGE</span>
-            <hr style="border-bottom: 2px solid black;">
-            <p>
+  </div>
+  <div class="row mt-5">
+    <div class="col-12 text-light"  style="font-size: 50px; font-weight: 500;">
+      <center>
+        EDUCATIONAL BACKGROUND
+      </center>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card text-light p-2" style="background-color: var(--white1);">
+        <center><span class="tits">EDUCATION COLLEGE</span></center>
+            <hr style="border-bottom: 2px solid rgb(255, 255, 255);">
+            
                 College School:
-                Bulacan State Agricultural University
-                Pinaod,San Ildefonso,Bulacan
-                (2021-2025)
-            </p>
-        </div>
+                Bulacan Agricultural State College <br>
+                Pinaod,San Ildefonso,Bulacan <br>
+                (2021-Present)
+           
       </div>
-        <h1>More Information About Me</h1>
-        <div class="moreabout">
-            <div class="card2">
-              <div class="mainlagayan">
-                <div class="lagayan"><b>Birthday:</b></div>
-                <div class="lagayan2">:June 11 2001</div><br>
-              </div>
-            
-              <div class="mainlagayan">
-                <div class="lagayan"><b>Age:</b></div>
-                <div class="lagayan2">:22</div><br>
-              </div>
-
-              <div class="mainlagayan">
-                <div class="lagayan"><b>Height:</b></div>
-                <div class="lagayan2">:5'7(ft)/170(cm)</div><br>
-              </div>
-
-              <div class="mainlagayan">
-                <div class="lagayan"><b>Zodiac Sign:</b></div>
-                <div class="lagayan2">:Gemini</div><br>
-              </div>
-
-              <div class="mainlagayan">
-                <div class="lagayan"><b>Nationality:</b></div>
-                <div class="lagayan2">:Filipino</div><br>
-              </div>
-
-              <div class="mainlagayan">
-                <div class="lagayan"><b>Religion:</b></div>
-                <div class="lagayan2">:Roman Catholic</div><br>
-              </div>
-
-            </div>
-        </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card text-light p-2" style="background-color: var(--white1);">
+        <center><span class="tits">EDUCATION SENIOR HIGH</span></center>
+        <hr style="border-bottom: 2px solid rgb(255, 255, 255);">
         
+        Senior High School: Vedasto R. Santiago <br>
+        Salacot,San Miguel,Bulacan <br>
+        (2019-2021)
+      </div>
     </div>
+    <div class="col-md-3">
+      <div class="card text-light p-2" style="background-color: var(--white1);">
+        <center><span class="tits">EDUCATION JUNIOR HIGH</span></center>
+        <hr style="border-bottom: 2px solid rgb(255, 255, 255);">
+        
+        Senior High School: Vedasto R. Santiago <br>
+        Salacot,San Miguel,Bulacan <br>
+        (2014-2018)
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card text-light p-2" style="background-color: var(--white1);">
+        <center><span class="tits">EDUCATION ELEMENTARY</span></center>
+        <hr style="border-bottom: 2px solid rgb(255, 255, 255);">
+        
+        Elementary School: Pinambaran Elementary School <br>
+        Pinambaran,San Miguel,Bulacan <br>
+        (2008-2014)
+      </div>
+    </div>
+  </div>
 </div>
 
-<hr class="third" style="border-bottom: 3px white solid;">
-<div class="third" id="hobby">
-    <div class="container">
-        <div class="ab ">
-            <h2>Hobbies</h2>
-        </div>
-
-            <div class="row " >
-                <div class="col-8" data-aos="zoom-in-right">
-
-                    <div class="accordion accordion-flush " style="position: relative; top: 200px;" id="accordionFlushExample">
-                        <div class="accordion-item">
-                          <h2 class="accordion-header">
-                            <button class="accordion-button collapsed bg-secondary text-light" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                              Playing Guitar
-                            </button>
-                          </h2>
-                          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">I learned to play the guitar when I was in grade 10 because of my friends who were in a band at our school, so whenever they had a practice, I always went with them and because I was there, I taught them how to play the guitar until I became interested in playing the guitar. so thats why I love playing the guitar.</div>
-                         </div>
-                        </div>
-                        <div class="accordion-item">
-                          <h2 class="accordion-header">
-                            <button class="accordion-button collapsed bg-secondary text-light" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                              Drawing
-                            </button>
-                          </h2>
-                          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">I used to be inspired by my classmate when I was in elementary school because he was very good at drawing and because of that I started to draw and that's when my drawings started to improve and when I went to high school I also had friends who are also good at drawing and they even taught me so that I could hone my drawing even more so since then I started drawing more often and I liked it and I fell in love with drawing.</div>
-                        </div>
-                        </div>
-                        <div class="accordion-item">
-                          <h2 class="accordion-header">
-                            <button class="accordion-button collapsed bg-secondary text-light" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                              Travel
-                            </button>
-                          </h2>
-                          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Ever since I learned to drive a car, I've been flying everywhere and I really like going everywhere and I'm looking for a place that's good to go to. It's so nice to go to the place I want to go, it really gives it's fun for me and because of this I really like to travel everywhere because it makes me happy.</div>
-                        </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                              <button class="accordion-button collapsed bg-secondary text-light" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapsefour">
-                                Playing Online Games
-                              </button>
-                            </h2>
-                            <div id="flush-collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">By playing online games I can avoid having anxiety and because of this and it makes the hours and days when I have problems, it helps because of the pleasures I feel here and because of that I like to play online games.</div>
-                            </div>
-                          </div>
-                          <div class="accordion-item">
-                            <h2 class="accordion-header">
-                              <button class="accordion-button collapsed bg-secondary text-light" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefive" aria-expanded="false" aria-controls="flush-collapsefive">
-                               Listening Music
-                              </button>
-                            </h2>
-                            <div id="flush-collapsefive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">listening to music relieves stress for me because whenever I'm tired I always listen to music and my body relaxes and my mind becomes calm because of listening to music so I like it.</div>
-                            </div>
-                          </div>
-                          <div class="accordion-item">
-                            <h2 class="accordion-header">
-                              <button class="accordion-button collapsed bg-secondary text-light" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsesix" aria-expanded="false" aria-controls="flush-collapsesix">
-                                Watching Anime/Movies
-                              </button>
-                            </h2>
-                            <div id="flush-collapsesix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">this is one of the things that I really like because I learn a lot of new knowledge because of it and I can really learn from watching movies and anime because of that I really liked watching them too.</div>
-                            </div>
-                          </div>
-                      </div>
-
-                </div>
-                <div class="col-4" data-aos="zoom-in-left">
-                    <img class="hpic" src="photo/hobbiespic.png" alt="marlon" style="height: 750px; width: 100%;">
-                </div>
-            </div>
-
-    </div>
+<div class="container phone my-5">&nbsp;
+  <div class="row mt-3">&nbsp;</div>
 </div>
 
-<hr class="fourths" style="border-bottom: 3px white solid;">
-<div class="fourth" id="contacts">
-    <div class="container-fluid">
-        <div class="ab ">
-            <h2>Contact</h2>
-        </div>
 
-            <div class="row">
-                <div class="col">
-                  <form action="">
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label text-light">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label text-light">Message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
-                    <button class="btn bg-secondary">Submit</button>
-                  </form>
-                </div>
-                <div class="col " >
-
-                    <div class="socials" >
-                        <a href="https://www.facebook.com/marlon.jester.11">
-                            <div class="border">
-                                <div class="content">
-                                <img class="icons" src="photo/facebook.png" alt="fb" style="width: 80%; height: 80%;">
-                                </div>
-                            </div>
-                        </a>
-                         <a href="https://instagram.com/itslonmartime?igshid=MzMyNGUyNmU2YQ==">
-                            <div class="border">
-                                <div class="content">
-                                <img class="icons" src="photo/instagram.png" alt="ig" style="width: 80%; height: 80%;">
-                                </div>
-                            </div>
-                        </a>
-                        <a href="https://www.tiktok.com/@.lowkey01?_t=8gt68tw4iJN&_r=1">
-                            <div class="border">
-                                <div class="content">
-                                    <img class="icons" src="photo/tik-tok.png" alt="tiktok" style="width: 80%; height: 80%;">
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                </div>
-            </div>
+<div class="container mt-5" id="skill" data-aos="zoom-in">
+  <div class="row">
+    <div class="col-12 py-3">
+      <center>
+        <h1 style="font-size: 40px;font-family: fantasy; color: var(--white);">SKILLS</h1>
+      </center>
     </div>
-</div>
-
-<div class="modal fade " id="html" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content bg-dark ">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="staticBackdropLabel">My Knowledge About HTML...</h1>
-          <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-            <div class="progress " role="progressbar" aria-label="Example with label" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar bg-danger" style="width: 60%">60%</div>
-              </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card p-3" style="background-color:transparent;">
+        <div class="row text-dark">
+          <img src="photo/html.png" class="lskill" alt="html" style="height: 90px; width: 90px;">
+          <h1 class="pt-3" style="font-size: 30px;font-family: cursive; color: var(--white0);">&nbsp;&nbsp;&nbsp;HTML</h1>
         </div>
       </div>
     </div>
-</div>
-
-<div class="modal fade " id="css" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content bg-dark ">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="staticBackdropLabel">My Knowledge About CSS...</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-            <div class="progress " role="progressbar" aria-label="Example with label" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar bg-info" style="width: 55%">55%</div>
-              </div>
+    <div class="col-md-4">
+      <div class="card p-3" style="background-color:transparent;">
+        <div class="row text-dark">
+          <img src="photo/css.png" class="lskill" alt="html" style="height: 90px; width: 90px;">
+          <h1 class="pt-3" style="font-size: 30px;font-family: cursive; color: var(--white0);">&nbsp;&nbsp;&nbsp;CSS</h1>
         </div>
       </div>
     </div>
-</div>
-
-<div class="modal fade " id="js" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content bg-dark ">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="staticBackdropLabel">My Knowledge About JAVASCRIPT...</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-            <div class="progress " role="progressbar" aria-label="Example with label" aria-valuenow="34" aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar bg-warning" style="width: 34%">34%</div>
-              </div>
+    <div class="col-md-4">
+      <div class="card p-3" style="background-color:transparent;">
+        <div class="row text-dark">
+          <img src="photo/js.png" class="lskill" alt="html" style="height: 90px; width: 90px;">
+          <h1 class="pt-3" style="font-size: 30px;font-family: cursive; color: var(--white0);">JAVASCRIPT</h1>
         </div>
       </div>
     </div>
-</div>
-
-<div class="modal fade " id="bootstrap" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content bg-dark ">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="staticBackdropLabel">My Knowledge About BOOTSTRAP...</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-            <div class="progress " role="progressbar" aria-label="Example with label" aria-valuenow="43" aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar bg-primary" style="width: 43%">43%</div>
-              </div>
+    <div class="col-md-4">
+      <div class="card p-3" style="background-color:transparent;">
+        <div class="row text-dark">
+          <img src="photo/bootstrap.png" class="lskill" alt="html" style="height: 90px; width: 90px;">
+          <h1 class="pt-3" style="font-size: 30px;font-family: cursive; color: var(--white0);">BOOTSTRAP</h1>
         </div>
       </div>
     </div>
+    <div class="col-md-4">
+      <div class="card p-3" style="background-color:transparent;">
+        <div class="row text-dark">
+          <img src="photo/PHP.png" class="lskill" alt="html" style="height: 90px; width: 90px;">
+          <h1 class="pt-3" style="font-size: 30px;font-family: cursive; color: var(--white0);">&nbsp;&nbsp;&nbsp;PHP</h1>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card p-3" style="background-color:transparent;">
+        <div class="row text-dark">
+          <img src="photo/SQL.png" class="lskill" alt="html" style="height: 90px; width: 90px;">
+          <h1 class="pt-3" style="font-size: 30px;font-family: cursive; color: var(--white0);">&nbsp;&nbsp;&nbsp;MYSQL</h1>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
+<div class="container phone my-5">&nbsp;
+  <div class="row mt-3">&nbsp;</div>
+</div>
 
-<img class="lpic" src="photo/mb.png" alt="marlons">
-<img class="lpic" src="photo/lons.png" alt="marlons">
-<img class="lpic" src="photo/happy-face.png" alt="marlons">
+<div class="container my-5" id="proj" data-aos="zoom-in">
+  <div class="row">
+    <div class="col-12 py-3">
+      <center>
+        <h1 style="font-size: 40px;font-family: fantasy; color: var(--white);">PROJECT</h1>
+      </center>
+    </div>
+  </div>
+<div class="row">
+  <div class="col-md-6 mt-5">
+    <div class="card1">
+      <div class="first-content">
+        <img src="photo/dss.png" alt="" height="300px" width="100%">
+      </div>
+      <div class="second-content p-3">
+        <h2 style="font-family: fantasy; color: var(--white0);">
+          Desicion Support System for Infant and Toddler
+        </h2>
+        <h5 class="text-light" style="font-family: 'Courier New', Courier, monospace;">
+          This is our Capstone Project and i'm the main Developer of this project.
+        </h5>
+        <br><br>
+        <a href="https://smbmunicipalnutrition-dss.com/" class="more" style="font-size: 20px;">Visit the Project</a>
+          </div>
+    </div>
+  </div>
+  <div class="col-md-6 mt-5">
+    <div class="card1">
+      <div class="first-content">
+        <img src="photo/rw.png" alt="" height="300px" width="100%">
+      </div>
+      <div class="second-content p-3">
+        <h2 style="font-family: fantasy; color: var(--white0);">
+          ROCKWAY EVENT MANAGEMENT
+        </h2>
+        <h5 class="text-light" style="font-family: 'Courier New', Courier, monospace;">
+          I'm only support Developer of this project.
+        </h5>
+        <br><br>
+        <a href="https://rockwaydubai.com/" class="more" style="font-size: 20px;">Visit the Project</a>
+          </div>
+    </div>
+  </div>
+</div>
+</div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<div class="container phone my-5">&nbsp;
+  <div class="row mt-3">&nbsp;</div>
+</div>
+
+<footer class="footer" style="background-color: var(--white1);">
+<div class="container" id="cont" data-aos="zoom-in">
+<div class="row pt-4">
+  <div class="col-md-4"></div>
+  <div class="col-md-4 pl-5">
+    <center>
+      <ul class="wrapper">
+        <a href="https://www.facebook.com/marlon.jester.11" class="text-dark">
+         <li class="icon facebook">
+             <span class="tooltip">Facebook</span>
+             <svg
+               viewBox="0 0 320 512"
+               height="1.2em"
+               fill="currentColor"
+               xmlns="http://www.w3.org/2000/svg"
+             >
+               <path
+                 d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+               ></path>
+             </svg>
+           </li>
+        </a>
+        <a href="https://www.tiktok.com/@.lowkey01?is_from_webapp=1&sender_device=pc" class="text-dark">
+         <li class="icon twitter">
+           <span class="tooltip">Tiktok</span>
+           <img class="icons" src="photo/tik-tok.png" alt="ig" style="width: 50%; height: 50%;">
+         </li>
+     </a>
+     <a href="https://www.instagram.com/itsmelonmar?igsh=YmRiaDdyZ3Bpa28y" class="text-dark">
+         <li class="icon instagram">
+           <span class="tooltip">Instagram</span>
+           <svg
+             xmlns="http://www.w3.org/2000/svg"
+             height="1.2em"
+             fill="currentColor"
+             class="bi bi-instagram"
+             viewBox="0 0 16 16"
+           >
+             <path
+               d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+             ></path>
+           </svg>
+         </li>
+     </a>
+     <a href="mailto:marlonbaro.basc@gmail.com" class="text-dark">
+         <li class="icon email">
+             <span class="tooltip">Email</span>
+             <svg
+             viewBox="0 0 488 512"
+             height="1.2em"
+             fill="currentColor"
+             xmlns="http://www.w3.org/2000/svg"
+         >
+             <path
+                 d="M488 261.8C488 403.3 389.3 512 256 512 114.6 512 0 397.4 0 256S114.6 0 256 0c69.3 0 128.9 26.8 175.5 70.2L344 157.5c-26.3-25-60.4-39.9-96.7-39.9-83 0-150.3 69.6-150.3 157.1S164.2 432 247.3 432c72.9 0 122.7-41.4 131-99.1H248v-79.1h240z"
+             ></path>
+         </svg>
+         
+         
+           </li>
+         </a>
+       </ul>
+    </center>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-4"></div>
+  <div class="col-md-4 text-light">
+    <center>
+      <a class="text-light" href="mailto:marlonbaro.basc@gmail.com">marlonbaro.basc@gmail.com</a> | 09760309602
+    </center>
+  </div>
+  <div class="col-md-4"></div>
+</div>
+<div class="row my-3">
+  <div class="col-md-4"></div>
+  <div class="col-md-4">
+   <center>
+    <a href="BaroMarlonM_Resume.pdf" download="MarlonBaro_CV.pdf" class="more" style="font-size: 20px;">Download CV</a>
+   </center>
+  </div>
+  <div class="col-md-4"></div>
+</div>
+<div class="row">
+  <div class="col-md-4"></div>
+  <div class="col-md-4 text-light">
+    <center>
+      ItsMeLonmar
+    </center>
+  </div>
+  <div class="col-md-4"></div>
+</div>
+</div>
+</footer>
+
     <script>
-        AOS.init();
+       AOS.init();
 
+          const text = "IT Student";
+          const typingDiv = document.getElementById("typing");
+        let index = 0;
+        let isDeleting = false;
 
-        var but1 = document.getElementById("but1");
-        var but2 = document.getElementById("but2");
-        var but3 = document.getElementById("but3");
-        var aboutme = document.getElementById("aboutme");
-        var contact = document.getElementById("contact");
-        var hobbies = document.getElementById("hobbies");
-        var webdev = document.getElementById("webdev");
-        but1.addEventListener('click',()=>{
-            aboutme.style.display = 'flex';
-            contact.style.display = 'none';
-            hobbies.style.display = 'none';
-            webdev.style.display = 'none';
-        });
-        but2.addEventListener('click',()=>{
-            aboutme.style.display = 'none';
-            hobbies.style.display = 'flex';
-            contact.style.display = 'none';
-            webdev.style.display = 'none';
-        });
-        but3.addEventListener('click',()=>{
-            aboutme.style.display = 'none';
-            hobbies.style.display = 'none';
-            contact.style.display = 'flex';
-            webdev.style.display = 'none';
-        });
+        function type() {
+            if (isDeleting && index > 0) {
+                typingDiv.innerHTML = text.substring(0, index - 1);
+                index--;
+                setTimeout(type, 100); // Adjust the speed by changing the value (in milliseconds)
+            } else if (!isDeleting && index < text.length) {
+                typingDiv.innerHTML = text.substring(0, index + 1);
+                index++;
+                setTimeout(type, 100); // Adjust the speed by changing the value (in milliseconds)
+            } else {
+                isDeleting = !isDeleting;
+                setTimeout(type, 1500); // Pause before starting to type again
+            }
+        }
 
+        function blinkCaret() {
+            setInterval(() => {
+                typingDiv.style.borderRightColor = (typingDiv.style.borderRightColor === 'transparent') ? 'black' : 'transparent';
+            }, 500); // Adjust the blink speed by changing the value (in milliseconds)
+        }
 
-
-        const myModal = document.getElementById('myModal')
-const myInput = document.getElementById('myInput')
-
-myModal.addEventListener('shown.bs.modal', () => {
-  myInput.focus()
-})
-
+        type();
+        blinkCaret();
     </script>
-</body>
+  </body>
 </html>
