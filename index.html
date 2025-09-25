@@ -3,460 +3,399 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marlon Baro | Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    />
+    <link rel="icon" type="image/png" href="photo/bm.png" />
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <link rel="icon" type="images/png" href="photo/mb.png" sizes="100x100" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Marlon Baro | Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   </head>
   <body>
-    <div class="container-fluid head ">
-      <div class="row">
-        <div class="col-1"></div>
-        <div class="col-11">
-            <nav class="navbar navbar-expand-lg" >
-                <a class="navbar-brand text-light" href="#"><img src="photo/mb.png" class="mblogs" alt="" height="50" width="50" /> - Portfolio</a>
-                <button class="navbar-toggler border" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon text-light pt-1"><i class="fas fa-bars"></i></span>
+    <!-- nav -->
+    <div class="container-fluid">
+      <div class="container" style="border-bottom: 3px solid var(--third)">
+        <div class="row">
+          <div class="col-12">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                  <img
+                    src="photo/bm1.png"
+                    alt="Marlon Baro"
+                    class="img-fluid"
+                    width="100"
+                    height="100"
+                /></a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarRight"
+                >
+                  <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav"> 
-                        <li class="nav-item active">
-                            <a class="nav-link text-light" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href="#aboutme">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href="#skill">Skill</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href="#proj">Project</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href="#cont">Contact</a>
-                        </li>
-                    </ul>
+                <div
+                  class="collapse navbar-collapse justify-content-end"
+                  id="navbarRight"
+                >
+                  <ul class="navbar-nav">
+                    <li class="nav-item px-2">
+                      <a class="nav-link" style="color: var(--third)" href="#"
+                        >Home</a
+                      >
+                    </li>
+                    <li class="nav-item px-2">
+                      <a class="nav-link" style="color: var(--third)" href="#about"
+                        >About Me</a
+                      >
+                    </li>
+                    <li class="nav-item px-2">
+                      <a class="nav-link" style="color: var(--third)" href="#skills"
+                        >Skills</a
+                      >
+                    </li>
+                    <li class="nav-item px-2">
+                      <a class="nav-link" style="color: var(--third)" href="#projects"
+                        >Project</a
+                      >
+                    </li>
+                    <li class="nav-item px-2">
+                      <a class="nav-link" style="color: var(--third)" href="#contact"
+                        >Contact</a
+                      >
+                    </li>
+                  </ul>
                 </div>
-            
-        </div>
-      </div>
-    </div>
-    <div class="container phone my-5">&nbsp;
-        <div class="row mt-3">&nbsp;</div>
-    </div>
-    <div class="container lap" data-aos="zoom-in"> 
-      <div class="row mt-1">
-        <div class="col-md-5 pt-5" style="color: var(--white0);">
-          <h1 style="font-size: 20px;">Hello, It's Me</h1>
-          <h1 style="font-size: 60px; font-family: fantasy;">Marlon M. Baro</h1>
-          <h1 style="font-size: 20px;">And I am a <b id="typing" class="typing-effect"></b></h1><br><br>
-          <div class="line"></div>
-          <!-- From Uiverse.io by david-mohseni --> 
-<ul class="wrapper">
-   <a href="https://www.facebook.com/marlon.jester.11" class="text-dark">
-    <li class="icon facebook">
-        <span class="tooltip">Facebook</span>
-        <svg
-          viewBox="0 0 320 512"
-          height="1.2em"
-          fill="currentColor"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
-          ></path>
-        </svg>
-      </li>
-   </a>
-   <a href="https://www.tiktok.com/@.lowkey01?is_from_webapp=1&sender_device=pc" class="text-dark">
-    <li class="icon twitter">
-      <span class="tooltip">Tiktok</span>
-      <img class="icons" src="photo/tik-tok.png" alt="ig" style="width: 50%; height: 50%;">
-    </li>
-</a>
-<a href="https://www.instagram.com/itsmelonmar?igsh=YmRiaDdyZ3Bpa28y" class="text-dark">
-    <li class="icon instagram">
-      <span class="tooltip">Instagram</span>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        height="1.2em"
-        fill="currentColor"
-        class="bi bi-instagram"
-        viewBox="0 0 16 16"
-      >
-        <path
-          d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
-        ></path>
-      </svg>
-    </li>
-</a>
-<a href="mailto:marlonbaro.basc@gmail.com" class="text-dark">
-    <li class="icon email">
-        <span class="tooltip">Email</span>
-        <svg
-        viewBox="0 0 488 512"
-        height="1.2em"
-        fill="currentColor"
-        xmlns="http://www.w3.org/2000/svg"
-    >
-        <path
-            d="M488 261.8C488 403.3 389.3 512 256 512 114.6 512 0 397.4 0 256S114.6 0 256 0c69.3 0 128.9 26.8 175.5 70.2L344 157.5c-26.3-25-60.4-39.9-96.7-39.9-83 0-150.3 69.6-150.3 157.1S164.2 432 247.3 432c72.9 0 122.7-41.4 131-99.1H248v-79.1h240z"
-        ></path>
-    </svg>
-    
-    
-      </li>
-    </a>
-  </ul>
-  <br>
-  
-<div class="row">
-  <div class="col-12">
-    <center>  <h1 style="font-size: 20px;"><a href="#aboutme" class="more">More About Me</a></h1></center>
-  </div>
-</div>
-  
-        </div>
-        <div class="col-md-7 phone">
-          <img
-            src="photo/lonmar.png"
-            alt=""
-            class="lonmar"
-            height="450"
-            width="100%"
-          />
-        </div>
-      </div>
-    </div>
-    <div class="container phone my-5">&nbsp;
-      <div class="row mt-3">&nbsp;</div>
-  </div>
-<div id="aboutme" class="container mt-5" data-aos="zoom-in">
-  <div class="row">
-    <div class="col-md-5">
-      <img src="photo/lonmar2.png" class="lonmar" alt="" height="450" width="100%">
-    </div>
-    <div class="col-md-7">
-<div class="card p-2 text-light" style="background-color:transparent;">
-  <div class="row">
-    <div class="col-12"  style="font-size: 50px; font-weight: 500;">
-      <center>
-        AboutMe
-      </center>
-    </div>
-  </div>
-  <div  class="row px-3 justify-text" style="font-size: 19px; font-weight: 500;">
-    Hello, Im Marlon Baro I am just a simple person who lives in Pinambaran, San Miguel Bulacan and I am the youngest of my siblings, and I am currently studying at BASC in the Bachelor of Science Information Technology course. I already know how to develop a website and any basic skill because of the great instructors who taught us and because of this I was able to make a simple website for myself, what I want to achieve? It is a to become a senior full-stack web developer, and I will do my best to make it dream come true, so this is what I want, and now I starting to create a simple website to make any people will be proud of me and to believing me so as a web developer I will show here that I can also become a senior full-stack web developer once I achieve this most people will looking at me. for now I will do everything I can to achieve everything I want to achieve.</div>
-</div>
-      
-    </div>
-  </div>
-  <div class="row mt-5">
-    <div class="col-12 text-light"  style="font-size: 50px; font-weight: 500;">
-      <center>
-        EDUCATIONAL BACKGROUND
-      </center>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-3">
-      <div class="card text-light p-2" style="background-color: var(--white1);">
-        <center><span class="tits">EDUCATION COLLEGE</span></center>
-            <hr style="border-bottom: 2px solid rgb(255, 255, 255);">
-            
-                College School:
-                Bulacan Agricultural State College <br>
-                Pinaod,San Ildefonso,Bulacan <br>
-                (2021-Present)
-           
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div class="card text-light p-2" style="background-color: var(--white1);">
-        <center><span class="tits">EDUCATION SENIOR HIGH</span></center>
-        <hr style="border-bottom: 2px solid rgb(255, 255, 255);">
-        
-        Senior High School: Vedasto R. Santiago <br>
-        Salacot,San Miguel,Bulacan <br>
-        (2019-2021)
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div class="card text-light p-2" style="background-color: var(--white1);">
-        <center><span class="tits">EDUCATION JUNIOR HIGH</span></center>
-        <hr style="border-bottom: 2px solid rgb(255, 255, 255);">
-        
-        Senior High School: Vedasto R. Santiago <br>
-        Salacot,San Miguel,Bulacan <br>
-        (2014-2018)
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div class="card text-light p-2" style="background-color: var(--white1);">
-        <center><span class="tits">EDUCATION ELEMENTARY</span></center>
-        <hr style="border-bottom: 2px solid rgb(255, 255, 255);">
-        
-        Elementary School: Pinambaran Elementary School <br>
-        Pinambaran,San Miguel,Bulacan <br>
-        (2008-2014)
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="container phone my-5">&nbsp;
-  <div class="row mt-3">&nbsp;</div>
-</div>
-
-
-<div class="container mt-5" id="skill" data-aos="zoom-in">
-  <div class="row">
-    <div class="col-12 py-3">
-      <center>
-        <h1 style="font-size: 40px;font-family: fantasy; color: var(--white);">SKILLS</h1>
-      </center>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-4">
-      <div class="card p-3" style="background-color:transparent;">
-        <div class="row text-dark">
-          <img src="photo/html.png" class="lskill" alt="html" style="height: 90px; width: 90px;">
-          <h1 class="pt-3" style="font-size: 30px;font-family: cursive; color: var(--white0);">&nbsp;&nbsp;&nbsp;HTML</h1>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="card p-3" style="background-color:transparent;">
-        <div class="row text-dark">
-          <img src="photo/css.png" class="lskill" alt="html" style="height: 90px; width: 90px;">
-          <h1 class="pt-3" style="font-size: 30px;font-family: cursive; color: var(--white0);">&nbsp;&nbsp;&nbsp;CSS</h1>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="card p-3" style="background-color:transparent;">
-        <div class="row text-dark">
-          <img src="photo/js.png" class="lskill" alt="html" style="height: 90px; width: 90px;">
-          <h1 class="pt-3" style="font-size: 30px;font-family: cursive; color: var(--white0);">JAVASCRIPT</h1>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="card p-3" style="background-color:transparent;">
-        <div class="row text-dark">
-          <img src="photo/bootstrap.png" class="lskill" alt="html" style="height: 90px; width: 90px;">
-          <h1 class="pt-3" style="font-size: 30px;font-family: cursive; color: var(--white0);">BOOTSTRAP</h1>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="card p-3" style="background-color:transparent;">
-        <div class="row text-dark">
-          <img src="photo/PHP.png" class="lskill" alt="html" style="height: 90px; width: 90px;">
-          <h1 class="pt-3" style="font-size: 30px;font-family: cursive; color: var(--white0);">&nbsp;&nbsp;&nbsp;PHP</h1>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="card p-3" style="background-color:transparent;">
-        <div class="row text-dark">
-          <img src="photo/SQL.png" class="lskill" alt="html" style="height: 90px; width: 90px;">
-          <h1 class="pt-3" style="font-size: 30px;font-family: cursive; color: var(--white0);">&nbsp;&nbsp;&nbsp;MYSQL</h1>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="container phone my-5">&nbsp;
-  <div class="row mt-3">&nbsp;</div>
-</div>
-
-<div class="container my-5" id="proj" data-aos="zoom-in">
-  <div class="row">
-    <div class="col-12 py-3">
-      <center>
-        <h1 style="font-size: 40px;font-family: fantasy; color: var(--white);">PROJECT</h1>
-      </center>
-    </div>
-  </div>
-<div class="row">
-  <div class="col-md-6 mt-5">
-    <div class="card1">
-      <div class="first-content">
-        <img src="photo/dss.png" alt="" height="300px" width="100%">
-      </div>
-      <div class="second-content px-5">
-        <h2 style="font-family: fantasy; color: var(--white0);">
-          Decision Support System for Infant and Toddler
-        </h2>
-        <h5 class="text-light" style="font-family: 'Courier New', Courier, monospace;">
-          This is our Capstone Project and i'm the main Developer of this project.
-        </h5>
-      
-        <a href="https://smbmunicipalnutrition-dss.com/" class="more" style="font-size: 20px;">Visit the Project</a>
+              </div>
+            </nav>
           </div>
-    </div>
-  </div>
-  <div class="col-md-6 mt-5">
-    <div class="card1">
-      <div class="first-content">
-        <img src="photo/rw.png" alt="" height="300px" width="100%">
+        </div>
       </div>
-      <div class="second-content px-5">
-        <h2 style="font-family: fantasy; color: var(--white0);">
-          ROCKWAY EVENT MANAGEMENT
-        </h2>
-        <h5 class="text-light" style="font-family: 'Courier New', Courier, monospace;">
-          I'm only support Developer of this project.
-        </h5>
-      
-        <a href="https://rockwaydubai.com/" class="more" style="font-size: 20px;">Visit the Project</a>
-          </div>
     </div>
-  </div>
-</div>
-</div>
-
-<div class="container phone my-5">&nbsp;
-  <div class="row mt-3">&nbsp;</div>
-</div>
-
-<footer class="footer" style="background-color: var(--white1);">
-<div class="container" id="cont" data-aos="zoom-in">
-<div class="row pt-4">
-  <div class="col-md-4"></div>
-  <div class="col-md-4 pl-5">
-    <center>
-      <ul class="wrapper">
-        <a href="https://www.facebook.com/marlon.jester.11" class="text-dark">
-         <li class="icon facebook">
-             <span class="tooltip">Facebook</span>
-             <svg
-               viewBox="0 0 320 512"
-               height="1.2em"
-               fill="currentColor"
-               xmlns="http://www.w3.org/2000/svg"
-             >
-               <path
-                 d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
-               ></path>
-             </svg>
-           </li>
-        </a>
-        <a href="https://www.tiktok.com/@.lowkey01?is_from_webapp=1&sender_device=pc" class="text-dark">
-         <li class="icon twitter">
-           <span class="tooltip">Tiktok</span>
-           <img class="icons" src="photo/tik-tok.png" alt="ig" style="width: 50%; height: 50%;">
-         </li>
-     </a>
-     <a href="https://www.instagram.com/itsmelonmar?igsh=YmRiaDdyZ3Bpa28y" class="text-dark">
-         <li class="icon instagram">
-           <span class="tooltip">Instagram</span>
-           <svg
-             xmlns="http://www.w3.org/2000/svg"
-             height="1.2em"
-             fill="currentColor"
-             class="bi bi-instagram"
-             viewBox="0 0 16 16"
-           >
-             <path
-               d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
-             ></path>
-           </svg>
-         </li>
-     </a>
-     <a href="mailto:marlonbaro.basc@gmail.com" class="text-dark">
-         <li class="icon email">
-             <span class="tooltip">Email</span>
-             <svg
-             viewBox="0 0 488 512"
-             height="1.2em"
-             fill="currentColor"
-             xmlns="http://www.w3.org/2000/svg"
-         >
-             <path
-                 d="M488 261.8C488 403.3 389.3 512 256 512 114.6 512 0 397.4 0 256S114.6 0 256 0c69.3 0 128.9 26.8 175.5 70.2L344 157.5c-26.3-25-60.4-39.9-96.7-39.9-83 0-150.3 69.6-150.3 157.1S164.2 432 247.3 432c72.9 0 122.7-41.4 131-99.1H248v-79.1h240z"
-             ></path>
-         </svg>
-         
-         
-           </li>
-         </a>
-       </ul>
-    </center>
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-4"></div>
-  <div class="col-md-4 text-light">
-    <center>
-      <a class="text-light" href="mailto:marlonbaro.basc@gmail.com">marlonbaro.basc@gmail.com</a> | 09760309602
-    </center>
-  </div>
-  <div class="col-md-4"></div>
-</div>
-<div class="row my-3">
-  <div class="col-md-4"></div>
-  <div class="col-md-4">
-   <center>
-    <a href="BaroMarlonM_Resume.pdf" download="MarlonBaro_CV.pdf" class="more" style="font-size: 20px;">Download CV</a>
-   </center>
-  </div>
-  <div class="col-md-4"></div>
-</div>
-<div class="row">
-  <div class="col-md-4"></div>
-  <div class="col-md-4 text-light">
-    <center>
-      ItsMeLonmar
-    </center>
-  </div>
-  <div class="col-md-4"></div>
-</div>
-</div>
-</footer>
-
-    <script>
-       AOS.init();
-
-          const text = "IT Student";
-          const typingDiv = document.getElementById("typing");
-        let index = 0;
-        let isDeleting = false;
-
-        function type() {
-            if (isDeleting && index > 0) {
-                typingDiv.innerHTML = text.substring(0, index - 1);
-                index--;
-                setTimeout(type, 100); // Adjust the speed by changing the value (in milliseconds)
-            } else if (!isDeleting && index < text.length) {
-                typingDiv.innerHTML = text.substring(0, index + 1);
-                index++;
-                setTimeout(type, 100); // Adjust the speed by changing the value (in milliseconds)
-            } else {
-                isDeleting = !isDeleting;
-                setTimeout(type, 1500); // Pause before starting to type again
-            }
-        }
-
-        function blinkCaret() {
-            setInterval(() => {
-                typingDiv.style.borderRightColor = (typingDiv.style.borderRightColor === 'transparent') ? 'black' : 'transparent';
-            }, 500); // Adjust the blink speed by changing the value (in milliseconds)
-        }
-
-        type();
-        blinkCaret();
-    </script>
+    <!-- Home -->
+    <div class="container-fluid">
+      <div class="container mt-2">
+        <div class="row">
+          <div class="col-md-6 text-start intros">
+            <h1 class="display-4" style="color: var(--third)">Hello, I'm</h1>
+            <h1 class="display-1" style="color: var(--second)">
+              Baro, Marlon M.
+            </h1>
+            <h3 style="color: var(--third)">Web Developer | Programmer</h3>
+            <p style="color: var(--third)">
+              I am a passionate web developer and programmer with a knack for
+              creating dynamic and user-friendly websites. With a strong
+              foundation in both front-end and back-end technologies, I strive
+              to deliver seamless digital experiences.
+            </p>
+            <a
+              href="mailto:marlonbaro.basc@gmail.com"
+              class="btn btn-primary"
+              style="background-color: var(--third); border: none"
+              >Hire Me</a
+            >
+            <a
+              href="MarlonBaroCV.pdf"
+              class="btn btn-outline-primary"
+              style="border: 2px solid var(--third); color: var(--third)"
+              download
+              >Download CV</a
+            >
+          </div>
+          <div class="col-md-6 text-center">
+            <img
+              src="photo/marlon.png"
+              alt="Marlon Baro"
+              class="img-fluid marlon"
+              width="75%"
+              height="auto"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About Me -->
+    <div class="container-fluid  mt-5 py-5" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2 style="color: var(--third)">About Me</h2>
+            <p style="color: var(--third)">
+              I am a dedicated web developer and programmer with a passion for
+              creating innovative digital solutions. With a strong foundation in
+              both front-end and back-end technologies, I specialize in building
+              responsive and user-friendly websites that deliver exceptional
+              user experiences. My expertise includes HTML, CSS, JavaScript, and
+              various frameworks, allowing me to bring ideas to life through
+              clean and efficient code. I thrive in collaborative environments
+              and am committed to continuous learning to stay updated with the
+              latest industry trends. Let's work together to turn your vision
+              into reality!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row my-4">
+            <div class="col-12 text-center">
+                <h2 style="color: var(--third)">Education</h2>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div
+              class="card mb-3"
+              style="
+                background-color: rgba(0, 0, 0, 0.03);
+                border: 1px solid var(--third);
+              "
+            >
+              <div class="card-body text-center">
+                <h3 class="card-title" style="color: var(--third)">College</h3>
+                <div class="card-text" style="color: var(--third)">
+                  <h5 class="mb-0">
+                    <strong
+                      >Bachelor of Science in Information Technology</strong
+                    >
+                  </h5>
+                  <small
+                    >Bulacan Agricultural State College • 2021 - 2025</small
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div
+              class="card mb-3"
+              style="
+                background-color: rgba(0, 0, 0, 0.03);
+                border: 1px solid var(--third);
+              "
+            >
+              <div class="card-body text-center">
+                <h3 class="card-title" style="color: var(--third)">
+                  Senior High School
+                </h3>
+                <div class="card-text" style="color: var(--third)">
+                  <h5 class="mb-0">
+                    <strong>General Academic Strand (GAS)</strong>
+                  </h5>
+                  <small
+                    >Vedasto R. Santiago Senior High School • 2019 - 2021</small
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div
+              class="card mb-3"
+              style="
+                background-color: rgba(0, 0, 0, 0.03);
+                border: 1px solid var(--third);
+              "
+            >
+              <div class="card-body text-center">
+                <h3 class="card-title" style="color: var(--third)">
+                  Junior High School
+                </h3>
+                <div class="card-text" style="color: var(--third)">
+                  <h5 class="mb-0">
+                    <strong>Junior High School Diploma</strong>
+                  </h5>
+                  <small
+                    >Vedasto R. Santiago Junior High School • 2014 - 2018</small
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div
+              class="card mb-3"
+              style="
+                background-color: rgba(0, 0, 0, 0.03);
+                border: 1px solid var(--third);
+              "
+            >
+              <div class="card-body text-center">
+                <h3 class="card-title" style="color: var(--third)">
+                  Elementary
+                </h3>
+                <div class="card-text" style="color: var(--third)">
+                  <h5 class="mb-0"><strong>Elementary Diploma</strong></h5>
+                  <small>Pinambaran Elementary School • 2008 - 2014</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Skills -->
+     <div class="container-fluid" id="skills">
+        <div class="container">
+            <div class="row my-5" >
+                <div class="col-12 text-center">
+                    <h2 style="color: var(--third)">Skills</h2>
+                    <p style="color: var(--third)">
+                        Here are some of the technologies and tools I work with:
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-2 col-4 text-center mb-4">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="60" />
+                    <p style="color: var(--third); margin-top: 10px;">HTML5</p>
+                </div>
+                <div class="col-md-2 col-4 text-center mb-4">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="60" />
+                    <p style="color: var(--third); margin-top: 10px;">CSS3</p>
+                </div>
+                <div class="col-md-2 col-4 text-center mb-4">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="60" />
+                    <p style="color: var(--third); margin-top: 10px;">JavaScript</p>
+                </div>
+                <div class="col-md-2 col-4 text-center mb-4">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" width="60" />
+                    <p style="color: var(--third); margin-top: 10px;">Bootstrap</p>
+                </div>
+                <div class="col-md-2 col-4 text-center mb-4">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP" width="60" />
+                    <p style="color: var(--third); margin-top: 10px;">PHP</p>
+                </div>
+                <div class="col-md-2 col-4 text-center mb-4">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" width="60" />
+                    <p style="color: var(--third); margin-top: 10px;">MySQL</p>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col-12 text-center">
+                    <h3 style="color: var(--third)">Personal Skills</h3>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-2 col-6 text-center mb-4">
+                    <i class="bi bi-people" style="font-size: 2rem; color: var(--third);"></i>
+                    <p style="color: var(--third); margin-top: 10px;">Teamwork</p>
+                </div>
+                <div class="col-md-2 col-6 text-center mb-4">
+                    <i class="bi bi-lightbulb" style="font-size: 2rem; color: var(--third);"></i>
+                    <p style="color: var(--third); margin-top: 10px;">Problem Solving</p>
+                </div>
+                <div class="col-md-2 col-6 text-center mb-4">
+                    <i class="bi bi-chat-dots" style="font-size: 2rem; color: var(--third);"></i>
+                    <p style="color: var(--third); margin-top: 10px;">Communication</p>
+                </div>
+                <div class="col-md-2 col-6 text-center mb-4">
+                    <i class="bi bi-clock-history" style="font-size: 2rem; color: var(--third);"></i>
+                    <p style="color: var(--third); margin-top: 10px;">Time Management</p>
+                </div>
+                <div class="col-md-2 col-6 text-center mb-4">
+                    <i class="bi bi-gear" style="font-size: 2rem; color: var(--third);"></i>
+                    <p style="color: var(--third); margin-top: 10px;">Adaptability</p>
+                </div>
+            </div>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+            <div class="row my-4">
+                <div class="col-12 text-center">
+                    <p style="color: var(--third); font-style: italic;">
+                        I am always eager to learn and develop new technological skills, not only for web development but also in other areas of programming, to stay ahead in the ever-evolving world of technology.
+                    </p>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- Project -->
+    <div class="container-fluid mb-5" id="projects">
+      <div class="container">
+        <div class="row my-5">
+            <div class="col-12 text-center">
+              <h2 style="color: var(--third)">Projects</h2>
+              <p style="color: var(--third)">
+                Here are some of the projects I've worked on:
+              </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+              <div class="card h-100" style="border: 1px solid var(--third);">
+            <img src="photo/dss.png" class="card-img-top" alt="DSS">
+            <div class="card-body">
+                    <h5 class="card-title" style="color: var(--itim); text-transform: uppercase;">DECISION SUPPORT SYSTEM FOR INFANT AND TODDLER</h5>
+                    <p class="card-text" style="color: var(--itim);">
+                        This Capstone Project was developed under my leadership as the main developer, focusing on delivering an effective and user-friendly decision support system for infant and toddler nutrition management.
+                    </p>
+                    <a href="https://mnao.smbmunicipalnutrition-dss.com/" class="btn btn-primary" style="background-color: var(--third); border: none;">View Project</a>  
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card h-100" style="border: 1px solid var(--third);">
+                <img src="photo/rw.png" class="card-img-top" alt="Project 2">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: var(--itim);">ROCKWAY EVENT MANAGEMENT</h5>
+                    <p class="card-text" style="color: var(--itim);">Served as a supporting developer, contributing to the successful implementation and deployment of this project.</p> 
+                    <a href="https://rockwaydubai.com/rockways/index.php" class="btn btn-primary" style="background-color: var(--third); border: none;">View Project</a>  
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card h-100" style="border: 1px solid var(--third);">
+                <img src="photo/sdo.png" class="card-img-top" alt="Project 3">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: var(--itim);">LEARNING RESOURCE MANAGEMENT AND DEVELOPMENT SYSTEM</h5>
+                    <p class="card-text" style="color: var(--itim);">
+                        A web-based Learning Resource Management and Development System (LRMDS) developed for the Schools Division Office (SDO) at Baliwag. This project streamlines the management, distribution, and development of educational resources for students,teachers and staff.
+                    </p> </p>
+                    <a href="https://sdocityofbaliwaglrmds.com" class="btn btn-primary" style="background-color: var(--third); border: none;">View Project</a>  
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact -->
+     <div class="container-fluid" id="contact">
+        <footer class="container py-4" style="border-top: 2px solid var(--third);">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center mb-3 mb-md-0">
+                    <img src="photo/bm1.png" alt="Marlon Baro Logo" width="100" height="60" />
+                </div>
+                <div class="col-md-6 text-center" style="color: var(--third);">
+                    <div>
+                        <strong>Email:</strong> <a href="mailto:marlonbaro.basc@gmail.com" style="color: var(--third); text-decoration: underline;">marlonbaro.basc@gmail.com</a>
+                    </div>
+                    <div>
+                        <strong>Phone:</strong> +63 976 030 9602
+                    </div>
+                    <div>
+                        <strong>Location:</strong> San Miguel, Bulacan, Philippines
+                    </div>
+                </div>
+                <div class="col-12 text-center mt-3">
+                    <a href="https://www.facebook.com/share/1E9erZjesZ/" target="_blank" style="margin: 0 10px; color: var(--third);">
+                        <i class="bi bi-facebook" style="font-size: 2rem;"></i>
+                    </a>
+                    <a href="https://t.me/ItsmeLonmar" target="_blank" style="margin: 0 10px; color: var(--third);">
+                        <i class="bi bi-telegram" style="font-size: 2rem;"></i>
+                    </a>
+                    <a href="mailto:marlonbaro.basc@gmail.com" style="margin: 0 10px; color: var(--third);">
+                        <i class="bi bi-envelope-fill" style="font-size: 2rem;"></i>
+                    </a>
+                    <!-- <a href="https://github.com/lonmar1101" target="_blank" style="margin: 0 10px; color: var(--third);">
+                        <i class="bi bi-github" style="font-size: 2rem;"></i>
+                    </a> -->
+                </div>
+            </div>
+        </footer>
+     </div>
   </body>
 </html>
+</div></p></div></div>
