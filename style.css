@@ -1,240 +1,32 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
-:root{
---black: rgb(31, 31, 31);
---red:rgb(145, 39, 39);
---white:rgb(132, 132, 132);
---white0:rgb(255, 255, 255);
---white1:rgb(79, 79, 79);
-}
-
-
 body{
-    background-color: var(--black);
-}
-.lonmar{
-    filter: drop-shadow(2px 2px 20px var(--white));
-}
-.head{
-    position: fixed;
-    top: 0;
-    z-index: 10;
-    background-color: var(--black);
-}
-.mblogs{
-    filter: drop-shadow(2px 2px 5px var(--white1));
+    background: #0e285b !important;
+    color: white;
 }
 
-.navbar-nav {
-    margin: auto;
-    text-align: center;
-}
-.navbar-nav .nav-item {
-    float: none;
-    display: inline-block;
-}
-.navbar-collapse {
-    justify-content: center;
+:root{
+    --itim:#000000;
+    --main: #0e285b;
+    --second: #2563eb;
+    --third: #0091ff;
+    --fourth: #96d7ff;
 }
 
-.typing-effect {
-    font-family: 'Courier New', Courier, monospace;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid;
-}
-
-.line {
-    width: 80%;
-    height: 2px;
-    background-color: var(--white); /* You can change the color here */
-}
-
-/* From Uiverse.io by david-mohseni */ 
-.wrapper {
-    display: inline-flex;
-    list-style: none;
-    height: 120px;
-    width: 100%;
-    padding-top: 0px;
-    font-family: "Poppins", sans-serif;
-    justify-content: left;
-    color: var(--black);
-  }
-  
-  .wrapper .icon {
-    position: relative;
-    background: #fff;
-    border-radius: 50%;
-    margin: 10px;
-    width: 50px;
-    height: 50px;
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
-  
-  .wrapper .tooltip {
-    position: absolute;
-    top: 0;
-    font-size: 14px;
-    background: #fff;
-    color: #fff;
-    padding: 5px 8px;
+.nav-item:hover{
+    filter: drop-shadow(0 0 8px var(--fourth)) !important;
     border-radius: 5px;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-    opacity: 0;
-    pointer-events: none;
-    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
-  
-  .wrapper .tooltip::before {
-    position: absolute;
-    content: "";
-    height: 8px;
-    width: 8px;
-    background: #fff;
-    bottom: -3px;
-    left: 50%;
-    transform: translate(-50%) rotate(45deg);
-    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
-  
-  .wrapper .icon:hover .tooltip {
-    top: -45px;
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
-  }
-  
-  .wrapper .icon:hover span,
-  .wrapper .icon:hover .tooltip {
-    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
-  }
-  
-  .wrapper .facebook:hover,
-  .wrapper .facebook:hover .tooltip,
-  .wrapper .facebook:hover .tooltip::before {
-    background: #1877f2;
-    color: #fff;
-  }
-  
-  .wrapper .twitter:hover,
-  .wrapper .twitter:hover .tooltip,
-  .wrapper .twitter:hover .tooltip::before {
-    background: #ffdfde;
-    color: #161616;
-  }
-  
-  .wrapper .instagram:hover,
-  .wrapper .instagram:hover .tooltip,
-  .wrapper .instagram:hover .tooltip::before {
-    background: #e4405f;
-    color: #fff;
-  }
-  .wrapper .email:hover,
-  .wrapper .email:hover .tooltip,
-  .wrapper .email:hover .tooltip::before {
-    background: #ffeca0;
-    color: #282828;
-  }
-
-  .more{
-    padding: 7px 20px;
-    text-decoration: none;
-    border-radius: 20px;
-    background-color: var(--white0);
-    color: var(--black);
-  }
-  .more:hover{
-    text-decoration-line: none;
-    background-color: var(--white);
-    color: var(--white0);
-    filter: drop-shadow(2px 2px 10px var(--white0));
-  }
-  .phone{
-    display: block;
-  }
-  @media screen and (max-width: 767px) {
-    .phone{
-        display: none;
-      }
-    .lap{
-        margin-top: 50px;
-    }
+    transition: 0.3s;
+    color: var(--main) !important;
 }
-
-.justify-text {
-    text-align: justify;
+.intros{
+    margin-top: 100px !important;
 }
-.lskill{
-    filter: drop-shadow(2px 2px 10px var(--white0));
+.marlon{
+    filter: drop-shadow(1px 1px 50px var(--third));
 }
-
-
-/* From Uiverse.io by suleymanlaarabidev */ 
-.card1 {
-    width: 100%;
-    height: 300px;
-    background: rgb(103, 225, 255);
-    transition: all 0.4s;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px 5px  rgba(0, 0, 0, 0.705);
-    font-size: 30px;
-    font-weight: 900;
-  }
-  
-  .card1:hover {
-    border-radius: 15px;
-    cursor: pointer;
-    transform: scale(1.2);
-    box-shadow: 0px 0px 10px 5px  rgba(0, 0, 0, 0.705);
-    background:var(--white1);
-  }
-  
-  .first-content {
-    height: 100%;
-    width: 100%;
-    transition: all 0.4s;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 1;
-    border-radius: 15px;
-  }
-  
-  .card1:hover .first-content {
-    height: 0px;
-    opacity: 0;
-  }
-  
-  .second-content {
-    height: 0%;
-    width: 100%;
-    opacity: 0;
-    z-index: -5;
-    border-radius: 15px;
-    transition: all 0.4s;
-    font-size: 0px;
-    transform: rotate(90deg) scale(-1);
-  }
-  
-  .card1:hover .second-content {
-    opacity: 1;
-    height: 100%;
-    font-size: 1.8rem;
-    transform: rotate(0deg);
-  }
-  
-  .tits{
-    font-size: 20px;
-    font-weight: 999;
-  }
