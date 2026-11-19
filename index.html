@@ -1,403 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Marlon Baro | Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link rel="icon" type="image/png" href="photo/bm.png" />
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  </head>
-  <body>
-    <!-- nav -->
-    <div class="container-fluid">
-      <div class="container" style="border-bottom: 3px solid var(--third)">
-        <div class="row">
-          <div class="col-12">
-            <nav class="navbar navbar-expand-lg navbar-dark">
-              <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                  <img
-                    src="photo/bm1.png"
-                    alt="Marlon Baro"
-                    class="img-fluid"
-                    width="100"
-                    height="100"
-                /></a>
-                <button
-                  class="navbar-toggler"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navbarRight"
-                >
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div
-                  class="collapse navbar-collapse justify-content-end"
-                  id="navbarRight"
-                >
-                  <ul class="navbar-nav">
-                    <li class="nav-item px-2">
-                      <a class="nav-link" style="color: var(--third)" href="#"
-                        >Home</a
-                      >
-                    </li>
-                    <li class="nav-item px-2">
-                      <a class="nav-link" style="color: var(--third)" href="#about"
-                        >About Me</a
-                      >
-                    </li>
-                    <li class="nav-item px-2">
-                      <a class="nav-link" style="color: var(--third)" href="#skills"
-                        >Skills</a
-                      >
-                    </li>
-                    <li class="nav-item px-2">
-                      <a class="nav-link" style="color: var(--third)" href="#projects"
-                        >Project</a
-                      >
-                    </li>
-                    <li class="nav-item px-2">
-                      <a class="nav-link" style="color: var(--third)" href="#contact"
-                        >Contact</a
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
-          </div>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#090e1b" />
+  <meta name="description" content="Marlon Baro — Web Developer & Programmer. Explore my work, technical skills, and projects." />
+  <title>Marlon Baro | Web Developer & Programmer</title>
+  <link rel="icon" type="image/png" href="photo/bm.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <header class="site-header" id="top">
+    <nav class="nav-shell wrap" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Marlon Baro home"><span class="brand-mark">M<span>.</span></span><span class="brand-name">MARLON<span class="brand-dim">/DEV</span></span></a>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-menu"><i class="bi bi-list"></i></button>
+      <div class="nav-links" id="site-menu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-contact">Let's Talk <i class="bi bi-arrow-up-right"></i></a>
       </div>
-    </div>
-    <!-- Home -->
-    <div class="container-fluid">
-      <div class="container mt-2">
-        <div class="row">
-          <div class="col-md-6 text-start intros">
-            <h1 class="display-4" style="color: var(--third)">Hello, I'm</h1>
-            <h1 class="display-1" style="color: var(--second)">
-              Baro, Marlon M.
-            </h1>
-            <h3 style="color: var(--third)">Web Developer | Programmer</h3>
-            <p style="color: var(--third)">
-              I am a passionate web developer and programmer with a knack for
-              creating dynamic and user-friendly websites. With a strong
-              foundation in both front-end and back-end technologies, I strive
-              to deliver seamless digital experiences.
-            </p>
-            <a
-              href="mailto:marlonbaro.basc@gmail.com"
-              class="btn btn-primary"
-              style="background-color: var(--third); border: none"
-              >Hire Me</a
-            >
-            <a
-              href="MarlonBaroCV.pdf"
-              class="btn btn-outline-primary"
-              style="border: 2px solid var(--third); color: var(--third)"
-              download
-              >Download CV</a
-            >
-          </div>
-          <div class="col-md-6 text-center">
-            <img
-              src="photo/marlon.png"
-              alt="Marlon Baro"
-              class="img-fluid marlon"
-              width="100%"
-              height="auto"
-            />
-          </div>
-        </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero wrap section" id="home">
+      <div class="hero-copy reveal">
+        <div class="availability"><span class="pulse"></span> OPEN TO OPPORTUNITIES <span class="availability-slash">/</span> PHILIPPINES</div>
+        <p class="eyebrow">HELLO WORLD, I'M</p>
+        <h1>Marlon <span>Baro<span class="period">.</span></span></h1>
+        <p class="hero-role">Web Developer <span class="role-divider">/</span> <span class="gradient-text">Programmer</span></p>
+        <p class="hero-description">I build intuitive, thoughtful, and scalable web experiences — turning complex problems into elegant digital solutions.</p>
+        <div class="hero-actions"><a class="btn-primary" href="#projects">Explore My Work <i class="bi bi-arrow-up-right"></i></a><a class="btn-text" href="MarlonBaroCV.pdf" download>Download CV <i class="bi bi-download"></i></a></div>
+        <div class="hero-meta"><span><i class="bi bi-geo-alt"></i> Bulacan, Philippines</span><span class="meta-separator"></span><span><i class="bi bi-code-slash"></i> Full-stack development</span></div>
       </div>
-    </div>
-    <!-- About Me -->
-    <div class="container-fluid  mt-5 py-5" id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 text-center">
-            <h2 style="color: var(--third)">About Me</h2>
-            <p style="color: var(--third)">
-              I am a dedicated web developer and programmer with a passion for
-              creating innovative digital solutions. With a strong foundation in
-              both front-end and back-end technologies, I specialize in building
-              responsive and user-friendly websites that deliver exceptional
-              user experiences. My expertise includes HTML, CSS, JavaScript, and
-              various frameworks, allowing me to bring ideas to life through
-              clean and efficient code. I thrive in collaborative environments
-              and am committed to continuous learning to stay updated with the
-              latest industry trends. Let's work together to turn your vision
-              into reality!
-            </p>
-          </div>
+      <div class="hero-visual reveal" style="--delay:120ms">
+        <div class="visual-grid" aria-hidden="true"></div>
+        <div class="orbit orbit-one" aria-hidden="true"></div><div class="orbit orbit-two" aria-hidden="true"></div>
+        <div class="portrait-ring">
+          <div class="portrait-inner"><img src="photo/marlon.png" alt="Portrait of Marlon Baro" onerror="this.style.display='none';this.parentElement.classList.add('portrait-fallback')" /></div>
         </div>
+        <div class="float-tag tag-code"><i class="bi bi-braces"></i> Creative Coder</div>
+        <div class="float-tag tag-build"><span class="tiny-dot"></span> BUILDING THE WEB</div>
+        <div class="visual-corner top-left"></div><div class="visual-corner bottom-right"></div>
       </div>
-      <div class="container">
-        <div class="row my-4">
-            <div class="col-12 text-center">
-                <h2 style="color: var(--third)">Education</h2>
-            </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <div
-              class="card mb-3"
-              style="
-                background-color: rgba(0, 0, 0, 0.03);
-                border: 1px solid var(--third);
-              "
-            >
-              <div class="card-body text-center">
-                <h3 class="card-title" style="color: var(--third)">College</h3>
-                <div class="card-text" style="color: var(--third)">
-                  <h5 class="mb-0">
-                    <strong
-                      >Bachelor of Science in Information Technology</strong
-                    >
-                  </h5>
-                  <small
-                    >Bulacan Agricultural State College • 2021 - 2025</small
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div
-              class="card mb-3"
-              style="
-                background-color: rgba(0, 0, 0, 0.03);
-                border: 1px solid var(--third);
-              "
-            >
-              <div class="card-body text-center">
-                <h3 class="card-title" style="color: var(--third)">
-                  Senior High School
-                </h3>
-                <div class="card-text" style="color: var(--third)">
-                  <h5 class="mb-0">
-                    <strong>General Academic Strand (GAS)</strong>
-                  </h5>
-                  <small
-                    >Vedasto R. Santiago Senior High School • 2019 - 2021</small
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div
-              class="card mb-3"
-              style="
-                background-color: rgba(0, 0, 0, 0.03);
-                border: 1px solid var(--third);
-              "
-            >
-              <div class="card-body text-center">
-                <h3 class="card-title" style="color: var(--third)">
-                  Junior High School
-                </h3>
-                <div class="card-text" style="color: var(--third)">
-                  <h5 class="mb-0">
-                    <strong>Junior High School Diploma</strong>
-                  </h5>
-                  <small
-                    >Vedasto R. Santiago Junior High School • 2014 - 2018</small
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div
-              class="card mb-3"
-              style="
-                background-color: rgba(0, 0, 0, 0.03);
-                border: 1px solid var(--third);
-              "
-            >
-              <div class="card-body text-center">
-                <h3 class="card-title" style="color: var(--third)">
-                  Elementary
-                </h3>
-                <div class="card-text" style="color: var(--third)">
-                  <h5 class="mb-0"><strong>Elementary Diploma</strong></h5>
-                  <small>Pinambaran Elementary School • 2008 - 2014</small>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div class="scroll-cue"><span>SCROLL TO EXPLORE</span><i class="bi bi-arrow-down"></i></div>
+    </section>
+
+    <div class="tech-strip"><div class="wrap tech-strip-inner"><span class="strip-label">TECH I WORK WITH</span><span>HTML5</span><span class="strip-star">✳</span><span>CSS3</span><span class="strip-star">✳</span><span>JAVASCRIPT</span><span class="strip-star">✳</span><span>PHP</span><span class="strip-star">✳</span><span>MYSQL</span><span class="strip-star">✳</span><span>BOOTSTRAP</span></div></div>
+
+    <section class="section wrap about-section" id="about">
+      <div class="section-heading reveal"><p class="eyebrow"><span class="section-num">01 /</span> GET TO KNOW ME</p><h2>Behind the <span class="gradient-text">code.</span></h2></div>
+      <div class="about-grid"><div class="about-story reveal"><p class="lead">Developer by profession.<br /><span>Problem-solver by nature.</span></p><p>I'm a web developer and programmer who enjoys transforming ideas into practical, user-friendly digital experiences. I work across front-end and back-end technologies, with a focus on clean implementation and purposeful design.</p><p>I enjoy collaborating, solving tough problems, and continuously learning new tools to build better software.</p><a class="inline-link" href="mailto:marlonbaro.basc@gmail.com">Let's build something together <i class="bi bi-arrow-up-right"></i></a><div class="about-facts"><div><strong>2025</strong><span>BSIT Graduate</span></div><div><strong>03</strong><span>Featured Projects</span></div><div><strong>∞</strong><span>Curiosity to Learn</span></div></div></div>
+      <div class="education-card reveal" style="--delay:90ms"><div class="card-header"><div class="card-label"><i class="bi bi-mortarboard"></i> EDUCATION JOURNEY</div><span class="card-deco">/ 04</span></div><div class="timeline"><div class="timeline-item featured"><span class="timeline-dot"></span><p class="timeline-year">2021 — 2025</p><h3>Bachelor of Science in Information Technology</h3><p>Bulacan Agricultural State College</p><span class="timeline-pill">College</span></div><div class="timeline-item"><span class="timeline-dot"></span><p class="timeline-year">2019 — 2021</p><h3>General Academic Strand (GAS)</h3><p>Vedasto R. Santiago Senior High School</p></div><div class="timeline-item"><span class="timeline-dot"></span><p class="timeline-year">2014 — 2018</p><h3>Junior High School</h3><p>Vedasto R. Santiago Junior High School</p></div><div class="timeline-item"><span class="timeline-dot"></span><p class="timeline-year">2008 — 2014</p><h3>Elementary School</h3><p>Pinambaran Elementary School</p></div></div></div></div>
+    </section>
+
+    <section class="skills-bg" id="skills"><div class="section wrap skills-section"><div class="section-heading reveal"><p class="eyebrow"><span class="section-num">02 /</span> MY TOOLKIT</p><h2>Skills & <span class="gradient-text">technologies.</span></h2><p class="section-subtitle">A collection of tools and strengths I use to turn ideas into working products.</p></div>
+      <div class="skill-layout"><div class="skill-panel reveal"><div class="panel-title"><span><i class="bi bi-terminal"></i> DEVELOPMENT STACK</span><span>06 TOOLS</span></div><div class="skill-grid">
+        <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="" loading="lazy" /><span>HTML5</span></div>
+        <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="" loading="lazy" /><span>CSS3</span></div>
+        <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="" loading="lazy" /><span>JavaScript</span></div>
+        <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" alt="" loading="lazy" /><span>Bootstrap</span></div>
+        <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" alt="" loading="lazy" /><span>PHP</span></div>
+        <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="" loading="lazy" /><span>MySQL</span></div>
+      </div></div><div class="skill-panel reveal" style="--delay:90ms"><div class="panel-title"><span><i class="bi bi-lightning-charge"></i> HUMAN SKILLS</span><span>05 STRENGTHS</span></div><div class="soft-skills"><div><i class="bi bi-people"></i><span>Teamwork & Collaboration</span><i class="bi bi-arrow-up-right"></i></div><div><i class="bi bi-puzzle"></i><span>Problem Solving</span><i class="bi bi-arrow-up-right"></i></div><div><i class="bi bi-chat-dots"></i><span>Communication</span><i class="bi bi-arrow-up-right"></i></div><div><i class="bi bi-clock-history"></i><span>Time Management</span><i class="bi bi-arrow-up-right"></i></div><div><i class="bi bi-arrow-repeat"></i><span>Adaptability</span><i class="bi bi-arrow-up-right"></i></div></div></div></div>
+    </div></section>
+
+    <section class="section wrap projects-section" id="projects"><div class="section-heading project-heading reveal"><div><p class="eyebrow"><span class="section-num">03 /</span> SELECTED WORK</p><h2>Projects worth <span class="gradient-text">sharing.</span></h2><p class="section-subtitle">Real-world solutions, built with purpose.</p></div><span class="project-count">FEATURED PROJECTS <b>03</b></span></div>
+      <div class="projects-grid">
+        <article class="project-card reveal"><div class="project-image"><img src="photo/dss.png" alt="Decision Support System project screenshot" loading="lazy" /><span class="project-index">01 / 03</span><a href="https://mnao.smbmunicipalnutrition-dss.com/" target="_blank" rel="noopener noreferrer" class="project-overlay-link" aria-label="Visit infant and toddler nutrition decision support system"><i class="bi bi-arrow-up-right"></i></a></div><div class="project-content"><div class="project-tags"><span>CAPSTONE</span><span>LEAD DEVELOPER</span></div><h3>Infant & Toddler Nutrition Decision Support System</h3><p>Led development of a decision support platform designed to help manage infant and toddler nutrition through an accessible, user-friendly interface.</p><a href="https://mnao.smbmunicipalnutrition-dss.com/" target="_blank" rel="noopener noreferrer" class="project-link">View Live Project <i class="bi bi-arrow-up-right"></i></a></div></article>
+        <article class="project-card reveal" style="--delay:80ms"><div class="project-image"><img src="photo/rw.png" alt="Rockway Event Management project screenshot" loading="lazy" /><span class="project-index">02 / 03</span><a href="https://rockwaydubai.com/rockways/index.php" target="_blank" rel="noopener noreferrer" class="project-overlay-link" aria-label="Visit Rockway Event Management"><i class="bi bi-arrow-up-right"></i></a></div><div class="project-content"><div class="project-tags"><span>WEB APPLICATION</span><span>CONTRIBUTING DEVELOPER</span></div><h3>Rockway Event Management</h3><p>Contributed to the development, implementation, and deployment of an event management web platform.</p><a href="https://rockwaydubai.com/rockways/index.php" target="_blank" rel="noopener noreferrer" class="project-link">View Live Project <i class="bi bi-arrow-up-right"></i></a></div></article>
+        <article class="project-card reveal" style="--delay:160ms"><div class="project-image"><img src="photo/sdo.png" alt="Learning Resource Management and Development System project screenshot" loading="lazy" /><span class="project-index">03 / 03</span><a href="https://sdocityofbaliwaglrmds.com" target="_blank" rel="noopener noreferrer" class="project-overlay-link" aria-label="Visit Learning Resource Management and Development System"><i class="bi bi-arrow-up-right"></i></a></div><div class="project-content"><div class="project-tags"><span>EDUCATION</span><span>WEB SYSTEM</span></div><h3>Learning Resource Management System</h3><p>A web-based LRMDS for the Schools Division Office of Baliwag, supporting the management and distribution of learning resources.</p><a href="https://sdocityofbaliwaglrmds.com" target="_blank" rel="noopener noreferrer" class="project-link">View Live Project <i class="bi bi-arrow-up-right"></i></a></div></article>
       </div>
-    </div>
-    <!-- Skills -->
-     <div class="container-fluid" id="skills">
-        <div class="container">
-            <div class="row my-5" >
-                <div class="col-12 text-center">
-                    <h2 style="color: var(--third)">Skills</h2>
-                    <p style="color: var(--third)">
-                        Here are some of the technologies and tools I work with:
-                    </p>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-md-2 col-4 text-center mb-4">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="60" />
-                    <p style="color: var(--third); margin-top: 10px;">HTML5</p>
-                </div>
-                <div class="col-md-2 col-4 text-center mb-4">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="60" />
-                    <p style="color: var(--third); margin-top: 10px;">CSS3</p>
-                </div>
-                <div class="col-md-2 col-4 text-center mb-4">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="60" />
-                    <p style="color: var(--third); margin-top: 10px;">JavaScript</p>
-                </div>
-                <div class="col-md-2 col-4 text-center mb-4">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" width="60" />
-                    <p style="color: var(--third); margin-top: 10px;">Bootstrap</p>
-                </div>
-                <div class="col-md-2 col-4 text-center mb-4">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP" width="60" />
-                    <p style="color: var(--third); margin-top: 10px;">PHP</p>
-                </div>
-                <div class="col-md-2 col-4 text-center mb-4">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" width="60" />
-                    <p style="color: var(--third); margin-top: 10px;">MySQL</p>
-                </div>
-            </div>
-            <div class="row my-5">
-                <div class="col-12 text-center">
-                    <h3 style="color: var(--third)">Personal Skills</h3>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-md-2 col-6 text-center mb-4">
-                    <i class="bi bi-people" style="font-size: 2rem; color: var(--third);"></i>
-                    <p style="color: var(--third); margin-top: 10px;">Teamwork</p>
-                </div>
-                <div class="col-md-2 col-6 text-center mb-4">
-                    <i class="bi bi-lightbulb" style="font-size: 2rem; color: var(--third);"></i>
-                    <p style="color: var(--third); margin-top: 10px;">Problem Solving</p>
-                </div>
-                <div class="col-md-2 col-6 text-center mb-4">
-                    <i class="bi bi-chat-dots" style="font-size: 2rem; color: var(--third);"></i>
-                    <p style="color: var(--third); margin-top: 10px;">Communication</p>
-                </div>
-                <div class="col-md-2 col-6 text-center mb-4">
-                    <i class="bi bi-clock-history" style="font-size: 2rem; color: var(--third);"></i>
-                    <p style="color: var(--third); margin-top: 10px;">Time Management</p>
-                </div>
-                <div class="col-md-2 col-6 text-center mb-4">
-                    <i class="bi bi-gear" style="font-size: 2rem; color: var(--third);"></i>
-                    <p style="color: var(--third); margin-top: 10px;">Adaptability</p>
-                </div>
-            </div>
-            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-            <div class="row my-4">
-                <div class="col-12 text-center">
-                    <p style="color: var(--third); font-style: italic;">
-                        I am always eager to learn and develop new technological skills, not only for web development but also in other areas of programming, to stay ahead in the ever-evolving world of technology.
-                    </p>
-                </div>
-            </div>
-        </div>
-     </div>
-     <!-- Project -->
-    <div class="container-fluid mb-5" id="projects">
-      <div class="container">
-        <div class="row my-5">
-            <div class="col-12 text-center">
-              <h2 style="color: var(--third)">Projects</h2>
-              <p style="color: var(--third)">
-                Here are some of the projects I've worked on:
-              </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 mb-4">
-              <div class="card h-100" style="border: 1px solid var(--third);">
-            <img src="photo/dss.png" class="card-img-top" alt="DSS">
-            <div class="card-body">
-                    <h5 class="card-title" style="color: var(--itim); text-transform: uppercase;">DECISION SUPPORT SYSTEM FOR INFANT AND TODDLER</h5>
-                    <p class="card-text" style="color: var(--itim);">
-                        This Capstone Project was developed under my leadership as the main developer, focusing on delivering an effective and user-friendly decision support system for infant and toddler nutrition management.
-                    </p>
-                    <a href="https://mnao.smbmunicipalnutrition-dss.com/" class="btn btn-primary" style="background-color: var(--third); border: none;">View Project</a>  
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 mb-4">
-              <div class="card h-100" style="border: 1px solid var(--third);">
-                <img src="photo/rw.png" class="card-img-top" alt="Project 2">
-                <div class="card-body">
-                    <h5 class="card-title" style="color: var(--itim);">ROCKWAY EVENT MANAGEMENT</h5>
-                    <p class="card-text" style="color: var(--itim);">Served as a supporting developer, contributing to the successful implementation and deployment of this project.</p> 
-                    <a href="https://rockwaydubai.com/rockways/index.php" class="btn btn-primary" style="background-color: var(--third); border: none;">View Project</a>  
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 mb-4">
-              <div class="card h-100" style="border: 1px solid var(--third);">
-                <img src="photo/sdo.png" class="card-img-top" alt="Project 3">
-                <div class="card-body">
-                    <h5 class="card-title" style="color: var(--itim);">LEARNING RESOURCE MANAGEMENT AND DEVELOPMENT SYSTEM</h5>
-                    <p class="card-text" style="color: var(--itim);">
-                        A web-based Learning Resource Management and Development System (LRMDS) developed for the Schools Division Office (SDO) at Baliwag. This project streamlines the management, distribution, and development of educational resources for students,teachers and staff.
-                    </p> </p>
-                    <a href="https://sdocityofbaliwaglrmds.com" class="btn btn-primary" style="background-color: var(--third); border: none;">View Project</a>  
-                </div>
-              </div>
-            </div>
-        </div>
-      </div>
-    </div>
-    <!-- Contact -->
-     <div class="container-fluid" id="contact">
-        <footer class="container py-4" style="border-top: 2px solid var(--third);">
-            <div class="row align-items-center">
-                <div class="col-md-6 text-center mb-3 mb-md-0">
-                    <img src="photo/bm1.png" alt="Marlon Baro Logo" width="100" height="60" />
-                </div>
-                <div class="col-md-6 text-center" style="color: var(--third);">
-                    <div>
-                        <strong>Email:</strong> <a href="mailto:marlonbaro.basc@gmail.com" style="color: var(--third); text-decoration: underline;">marlonbaro.basc@gmail.com</a>
-                    </div>
-                    <div>
-                        <strong>Phone:</strong> +63 976 030 9602
-                    </div>
-                    <div>
-                        <strong>Location:</strong> San Miguel, Bulacan, Philippines
-                    </div>
-                </div>
-                <div class="col-12 text-center mt-3">
-                    <a href="https://www.facebook.com/share/1E9erZjesZ/" target="_blank" style="margin: 0 10px; color: var(--third);">
-                        <i class="bi bi-facebook" style="font-size: 2rem;"></i>
-                    </a>
-                    <a href="https://t.me/ItsmeLonmar" target="_blank" style="margin: 0 10px; color: var(--third);">
-                        <i class="bi bi-telegram" style="font-size: 2rem;"></i>
-                    </a>
-                    <a href="mailto:marlonbaro.basc@gmail.com" style="margin: 0 10px; color: var(--third);">
-                        <i class="bi bi-envelope-fill" style="font-size: 2rem;"></i>
-                    </a>
-                    <!-- <a href="https://github.com/lonmar1101" target="_blank" style="margin: 0 10px; color: var(--third);">
-                        <i class="bi bi-github" style="font-size: 2rem;"></i>
-                    </a> -->
-                </div>
-            </div>
-        </footer>
-     </div>
-  </body>
+    </section>
+
+    <section class="contact-section" id="contact"><div class="wrap contact-wrap reveal"><p class="eyebrow"><span class="section-num">04 /</span> LET'S CONNECT</p><div class="contact-headline"><h2>Have an idea?<br /><span>Let's make it real.</span></h2><div class="contact-side"><p>Have a project, collaboration, or opportunity in mind? I'm always happy to connect and talk about building something meaningful.</p><a class="btn-primary" href="mailto:marlonbaro.basc@gmail.com?subject=Let%27s%20work%20together">Start a Conversation <i class="bi bi-arrow-up-right"></i></a></div></div><div class="email-line"><a href="mailto:marlonbaro.basc@gmail.com">marlonbaro.basc@gmail.com <i class="bi bi-arrow-up-right"></i></a><button type="button" class="copy-email" aria-label="Copy email address" title="Copy email address" data-email="marlonbaro.basc@gmail.com"><i class="bi bi-copy"></i><span>Copy</span></button></div></div></section>
+  </main>
+  <footer class="footer"><div class="wrap footer-main"><a class="brand" href="#home"><span class="brand-mark">M<span>.</span></span><span class="brand-name">MARLON<span class="brand-dim">/DEV</span></span></a><p>Designed & built with purpose.</p><div class="socials"><a href="https://www.facebook.com/share/1E9erZjesZ/" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a><a href="https://t.me/ItsmeLonmar" aria-label="Telegram" target="_blank" rel="noopener noreferrer"><i class="bi bi-telegram"></i></a><a href="mailto:marlonbaro.basc@gmail.com" aria-label="Email"><i class="bi bi-envelope"></i></a><a href="https://github.com/lonmar1101" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a></div></div><div class="wrap footer-bottom"><span>© <span id="year">2026</span> Marlon Baro. All rights reserved.</span><span>San Miguel, Bulacan, Philippines <span class="footer-spark">✳</span> <a href="tel:+639760309602">+63 976 030 9602</a></span><a href="#home">BACK TO TOP <i class="bi bi-arrow-up"></i></a></div></footer>
+</body>
 </html>
-</div></p></div></div>
-
-
